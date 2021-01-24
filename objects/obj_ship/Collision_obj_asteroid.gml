@@ -1,9 +1,10 @@
 /// @description Collison
 
+// destroy self
 instance_destroy();
 
-// debris
-repeat(10)
-{
-	instance_create_layer(x, y, "Instances", obj_debris);	
-}
+// create some debris
+createDebris();
+
+// lose a life
+decrementlives();
