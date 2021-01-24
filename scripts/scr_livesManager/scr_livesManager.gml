@@ -2,14 +2,7 @@
 /// @function                 decrementlives();
 /// @description              decrements the players lives count by 1.
 function decrementlives(){
-	
 	lives -= 1;
-	
-	if (lives <= 0)
-	{
-		// game over	
-	}
-
 }
 
 /// @function                 incrementlives();
